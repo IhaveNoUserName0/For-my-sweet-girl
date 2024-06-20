@@ -1,0 +1,43 @@
+body{
+    direction: rtl;
+    background-color: #ffbbc6;
+    font-family: "Amiri", serif;
+}
+.container{
+    position: relative;
+    max-width: 80%;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    height: fit-content;
+    background-color: #ec709d;
+    margin: 50px auto;
+    text-align: center;
+    word-break: break-word;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.container img{
+    top: -60px;
+    left: -60px;
+    position: absolute;
+}
+.idk{
+    margin-top: 20px;
+}
+.heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url('pinkheart.png'); /* Replace with your heart image URL */
+    background-size: cover;
+    opacity: 1;
+    animation: fadeOut 2s forwards;
+  }
+
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
